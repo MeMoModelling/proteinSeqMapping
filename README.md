@@ -1,4 +1,4 @@
-## This notebook maps protein IDs from a metabolic model to NCBI protein accessions using BLASTp. The output CSV is used in **Step 2** of the [Universal Metabolic Community Pipeline](https://metabolic-community-pipeline.streamlit.app).
+This notebook maps protein IDs from a metabolic model to NCBI protein accessions using BLASTp. The output CSV is used in **Step 2** of the [Universal Metabolic Community Pipeline](https://metabolic-community-pipeline.streamlit.app).
 
 ---
 
