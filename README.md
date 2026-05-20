@@ -1,4 +1,5 @@
-# This tool maps protein sequences from a Genome-scale metabolic model (GEM) to the coding sequences of a reference genome using BLASTp.
+# Protein Sequences Mapper
+This tool maps protein sequences from a Genome-scale metabolic model (GEM) to the coding sequences of a reference genome using BLASTp.
 
 # Licensing
 This software is Copyright (c) 2026. All rights reserved.
