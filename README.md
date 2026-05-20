@@ -12,6 +12,10 @@ Collaboration: Academic researchers are prohibited from using this code in colla
 
 Please see the LICENSE file for the full terms and disclaimer of warranty.
 
+# Google Co-lab availability
+https://colab.research.google.com/github/MeMoModelling/proteinSeqMapping/blob/main/protein_seq_mapping.ipynb
+
+
 
 ## Open in Google Colab
 
