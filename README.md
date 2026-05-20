@@ -22,7 +22,7 @@ Please see the LICENSE file for the full terms and disclaimer of warranty.
 ### What you need
 - A Google account
 - Your **model protein FASTA** (`.faa`) — protein sequences from your metabolic model
-- Your **NCBI protein FASTA** (`.faa`) — protein sequences downloaded from NCBI for the same species
+- Your **genome protein FASTA** (`.faa`) — protein sequences for the same species
 
 ### Steps
 
@@ -32,25 +32,21 @@ Click the **Open in Colab** button above. The notebook will open in your browser
 
 **2. Run all cells**
 
-Go to **Runtime → Run all** in the top menu.
+Go to **Runtime → Run all** in the top menu. The environment will set up automatically.
 
 **3. Upload your FASTA files**
 
 When prompted, upload your files:
-- First: your **query FASTA** (model protein sequences)
-- Second: your **database FASTA** (NCBI protein sequences)
+- First: your **model protein FASTA** (query sequences)
+- Second: your **genome protein FASTA** (database sequences)
 
-**4. Wait for BLAST to finish**
-
-This may take several minutes depending on the size of your files.
-
-**5. Download the output CSV**
+**4. Download the output CSV**
 
 When complete, find the output file in the **Files panel on the left** (📁). Right-click it and select **Download**.
 
 The file will be named `<species>_protein_id_mapping.csv`.
 
-**6. Upload to the pipeline**
+**5. Upload to the pipeline**
 
 Upload the CSV to **Step 2** of the Universal Metabolic Community Pipeline.
 
@@ -67,10 +63,14 @@ Each Google account can only run one Colab session at a time. To process multipl
 
 ## Output format
 
+The output is a two-column CSV mapping your model protein IDs to their matched genome protein IDs:
+
 | Column | Description |
 |---|---|
 | `identifier_query` | Model protein/gene ID |
-| `identifier_db` | Matched NCBI protein accession |
+| `identifier_db` | Matched genome protein ID |
+
+![Output example](https://raw.githubusercontent.com/MeMoModelling/proteinSeqMapping/main/preview_protein_id_mapping.png)
 
 ---
 
