@@ -1,12 +1,20 @@
-This notebook maps protein IDs from a metabolic model to NCBI protein accessions using BLASTp. The output CSV is used in **Step 2** of the [Universal Metabolic Community Pipeline](https://metabolic-community-pipeline.streamlit.app).
+# This tool maps protein sequences from a Genome-scale metabolic model (GEM) to the coding sequences of a reference genome using BLASTp.
 
----
+# Licensing
+This software is Copyright (c) 2026. All rights reserved.
+
+Academic/Education: Free for use.
+
+Commercial: Prohibited without an explicit license from the author.
+
+Collaboration: Academic researchers are prohibited from using this code in collaborative research with commercial companies.
+
+Please see the LICENSE file for the full terms and disclaimer of warranty.
+
 
 ## Open in Google Colab
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MeMoModelling/proteinSeqMapping/blob/main/protein_seq_mapping.ipynb)
-
----
 
 ## How to use
 
